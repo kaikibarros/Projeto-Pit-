@@ -1,0 +1,29 @@
+.header {
+    background-image: url(/src/assets/img/Diogo-defante.png);
+    color: whitesmoke;
+    margin: 0%;
+    padding: 25px;
+    width: 1150px;
+    height: 100px;
+    background-size: contain;
+}
+.h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 7%;
+    margin-left: 5%;
+}
+.titulo-baixo {
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+.conteudo-informativo {
+    text-align: center;
+    font-size: x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.container {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
