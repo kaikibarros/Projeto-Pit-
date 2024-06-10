@@ -1,17 +1,3 @@
-.header-contato {
-    background-image: url(/src/assets/img/Diogo-defante.png);
-    color: whitesmoke;
-    margin: 0%;
-    padding: 25px;
-    width: 1150px;
-    height: 100px;
-    background-size: contain;
-}
-.h1 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    margin-top: 7%;
-    margin-left: 5%;
-}
 .titulo-baixo {
     font-size: 40px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -89,3 +75,4 @@ form input[type="submit"]:hover {
         width: 100%;
     }
 }
+
