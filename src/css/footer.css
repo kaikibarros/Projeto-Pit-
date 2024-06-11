@@ -2,74 +2,95 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    
-   
   }
   
   footer {
-    background-color: #333;
-    color: #fff;
+    text-align: center;
     padding: 20px 0;
-     margin-top:100px;
+    background-color: #000;
+  }
+
+  .img-rodape {
+    border-radius: 20px;
+    width: 10%;
+    margin-bottom: 0px;
   }
   
   .footer-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 40px;
+    flex-direction: column;
+    align-items: center;
   }
   
   .footer-section {
-    flex: 1;
-    margin: 20px;
-    min-width: 200px;
+    list-style-type: none;
+    padding: 10px;
   }
-  
-  .footer-section h2 {
-    font-size: 18px;
-    margin-bottom: 10px;
-  }
-  
-  .footer-section p,
-  .footer-section ul {
-    font-size: 14px;
-    line-height: 1.6;
-  }
-  
+
   .footer-section ul {
     list-style-type: none;
     padding: 0;
+    display: flex;
+    font-size: larger;
+    margin-bottom: 5px;
   }
   
-  .footer-section ul li {
-    margin-bottom: 10px;
+  .footer-section li {
+    display: inline;
+    margin: 6px;
   }
   
-  .footer-section ul li a {
-    color: #fff;
+  .footer-section a {
     text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
   }
   
   .footer-section ul li a:hover {
-    text-decoration: underline;
+    color:goldenrod;
+    text-decoration: none;
   }
   
   .social-icons {
-    display: flex;
-    gap: 10px;
+    margin: 0px;
   }
   
   .social-icons a {
-    display: block;
-    width: 24px;
-    height: 24px;
+    margin: 4px;
+
+    display: inline-block;
   }
   
   .social-icons img {
-    width: 100%;
-    height: 100%;
+    filter: brightness(0) invert(1) sepia(1) saturate(100%) hue-rotate(360deg);
+  }
+
+  .social-icons img:hover {
+    filter: brightness(0.9) invert(1) sepia(1) saturate(3) hue-rotate(40deg);
+  }
+
+  .facebook {
+    width: 35px;
+    height: 35px;
+  }
+  .Instagram {
+    width: 30px;
+    height: 30px;
+  }
+  .Twitter {
+    width: 25px;
+    height:28px;
   }
   
+
+  .direitos-autorais {
+    margin-top: 20px;
+    font-size: 14px;
+    color: goldenrod;
+  }
