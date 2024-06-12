@@ -1,0 +1,286 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+
+* {
+    margin: 0;
+    padding: 0,
+    wrap
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: url('/fotos/image\ 8\ \(1\).png') no-repeat center center fixed;
+    background-size: 200%;
+    height: 80vh;
+}
+
+/* Header */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.header.scrolled{
+    background-color: #000;
+}
+.logo {
+    font-size: 32px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.navbar a {
+    position: relative;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+.navbar a::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #fff;
+    transition: 0.3s;
+}
+
+.navbar a:hover::before {
+    width: 100%;
+}
+
+/* Sections */
+.section-Spotify{
+        display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+.section-home, .section-videos {
+    width: 100%;
+    min-height: 90vh;
+    padding: 100px 100px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
+
+.fa-spotify{
+    color: green;
+}
+.container-spotify-logo>h1{
+    font-size: 50px;
+}
+.section-home{
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.section-home .container-text{
+    line-height: 5rem;
+}
+
+.section-home h2{
+    font-size: 100px;
+}
+
+.section-home p{
+    font-size: 24px;
+    color: #f6f6f6c4;
+}
+
+#data{
+    font-size: 82px;
+}
+
+#button-home i{
+    font-size: 16px;
+}
+
+#button-home:hover{
+    background-color: #bea448;
+}
+
+/*SECTION VIDEOS*/
+.section-bio{
+    width: 100%;
+    height: 80vh;
+
+    background-color: #1f1f1f;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #ffffff;
+}
+
+.section-bio .about-container{
+    width: 60%;
+
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 5rem;
+}
+
+.about-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.about-img img {
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.about-container .about-text h2{
+    font-size: 64px;
+}
+
+.about-container .about-img img{
+    height: 130%;
+    width: 130%;
+}
+
+/*SECTION VIDEOS*/
+.section-videos{
+    width: 100%;
+    background-color: #fff;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.section-videos .container{
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+
+    gap: 2rem;
+}
+
+.section-videos .container h2{
+    color: #1f1f1f;
+    font-size: 52px;
+
+    text-align: center;
+}
+
+.section-videos .container-videos iframe{
+    border-radius: 0.6rem;
+
+}
+
+.section-videos .container i{
+    color: rgb(240, 61, 61);
+}
+
+.button-videos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#button-videos, #button-home {
+    padding: 10px 20px;
+    background-color: #FFD700;
+    color: #000;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+    cursor: pointer;
+    border-style: solid;
+}
+
+
+#button-videos:hover {
+    background-color: #FFC700;
+}
+
+.section-Spotify{
+    width: 100%;
+    height: 100vh;
+
+    background-color: #401266f1;
+
+   
+
+    color: #ffffff;
+}
+
+
+.section-Spotify .container {
+    display: flex; 
+    justify-content: space-between; 
+    gap: 40px;
+    align-items: center;
+}
+
+
+
+.button-Spotify {
+    text-align: center; 
+    margin-top: 20px; 
+}
+
+.container-playlist{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+#button-spotify {
+     padding: 10px 20px;
+    background-color: #FFD700;
+    color: #000;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+    cursor: pointer;
+    border-style: solid;
+}
+
+.section-Imagens{
+    width: 100%;
+    height: 80vh;
+
+    background-color: #e5e4e6;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #ffffff;
+}
