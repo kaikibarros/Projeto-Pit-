@@ -1,25 +1,32 @@
-/* Header */
 .header {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    padding: 20px 100px;
+    padding: 20px 40px; 
     background-color: transparent;
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 100;
+    transition: background-color 0.3s;
 }
 
-.header.scrolled{
+.header.scrolled {
     background-color: #000;
 }
+
 .logo {
     font-size: 32px;
     color: #fff;
     text-decoration: none;
     font-weight: 700;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 1px;
 }
 
 .navbar a {
@@ -28,7 +35,7 @@
     color: #fff;
     font-weight: 500;
     text-decoration: none;
-    margin-left: 40px;
+    margin-left: 20px; 
 }
 
 .navbar a::before {
@@ -45,3 +52,34 @@
 .navbar a:hover::before {
     width: 100%;
 }
+
+@media (min-width: 601px) and (max-width: 1080px) {
+    .header {
+        padding: 15px 30px; 
+    }
+    .logo {
+        font-size: 24px;
+    }
+    .navbar a {
+        font-size: 16px;
+        margin-left: 15px;
+    }
+}
+
+@media (min-width: 390px) and (max-width: 600px) {
+    .header {
+        padding: 10px 60px; 
+    }
+    .logo {
+        font-size: 12px;
+    }
+    .navbar a {
+        font-size: 10px;
+        margin-left: 10px;
+        
+    }
+    main {
+        margin-top:400px;
+    }
+}
+
