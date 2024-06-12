@@ -1,44 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
 body {
-  padding: 0;
+    min-height: 10vh;
+    background: url("/src/assets /img/Defante-mic-verde.png") no-repeat ;
+    background-size: 100%;
+    background-color: darkslategrey;
+    height: 80vh;
 }
 
 main {
+    
     justify-content: center;
-    margin-top: 520px;
     align-items: center;
     background-color: darkslategrey;
+    margin-bottom: 10%;
+     margin-top: 690px;
     
 }
- .fundo{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1; 
-    object-fit: cover; 
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    background-color: rgba(172, 142, 103, 0.075);
-}
-.fundo {
-    content: "";
-    height: 100vh;
-    width: 100vw;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background: linear-gradient(90deg, rgba(0, 0, 0, 0.63) 0%, rgba(0, 0, 0, 0.555) 50%, rgba(0, 0, 0, 0.555) 100%)
-} 
+
+
 
 .titulo {
     top: 30px;
+    font-size: 190%;
     position:relative;
     text-align: center;
     color:rgb(223, 171, 0);
    
 }
+
+
 
 .artista-nome {
     margin-top: 10px;
@@ -50,11 +41,13 @@ main {
 }
 
 .capas {
+    
     align-items: left;
     display: flex;
     flex-direction: column;
+    margin-left: 20%;
+    flex-wrap: wrap; /* Permitir quebra de linha */
     margin-top: 100px;
-    margin-left: 150px;
 }
 
 .capas .gari {
@@ -95,7 +88,8 @@ main {
     align-items: right;
     display: flex;
     flex-direction: column;
-    margin-left: 625px;
+    margin-left: 50%;
+    flex-wrap: wrap; /* Permitir quebra de linha */
     
 }
 
