@@ -5,7 +5,7 @@ body {
     background: url("/src/assets /img/Defante-mic-verde.png") no-repeat ;
     background-size: 100%;
     background-color: darkslategrey;
-    height: 80vh;
+    height: 70vh;
 }
 
 main {
@@ -14,10 +14,9 @@ main {
     align-items: center;
     background-color: darkslategrey;
     margin-bottom: 10%;
-     margin-top: 690px;
+     margin-top: 990px;
     
 }
-
 
 
 .titulo {
@@ -40,6 +39,7 @@ main {
     text-decoration: underline;
 }
 
+
 .capas {
     
     align-items: left;
@@ -54,6 +54,7 @@ main {
    width: 350px;
    height: 350px;
    border-radius: 4%;
+   transition: 200ms;
 }
 
 .capas .robson {
@@ -86,7 +87,7 @@ main {
 
 .spotify-iframe {
     align-items: right;
-    display: flex;
+    display:flex;
     flex-direction: column;
     margin-left: 50%;
     flex-wrap: wrap; /* Permitir quebra de linha */
@@ -124,6 +125,15 @@ main {
     margin-top:100px;
 }
 
+@media ((min-width: 390px) and (max-width: 966px)){
+    .capas {
+        transform: scale(0.6);
+
+    }
+    .spotify-iframe {
+        transform: scale(0.4);
+    }
+}
 
 
 
