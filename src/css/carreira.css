@@ -1,0 +1,98 @@
+
+body {
+    min-height: 10vh;
+    background: url("/src/assets /img/Defante-mic.png") no-repeat center;
+    background-size: 100%;
+    background-color: rgb(128, 31, 25);
+    height: 80vh;
+}
+
+
+main {
+    max-width: 1200px;
+    
+    margin: 20px auto;
+    padding: 20px;
+    margin-top: 680px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+section {
+    margin-bottom: 50px;
+}
+
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+
+p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px 0;
+}
+
+
+.diogo-banda {
+    max-width: 600px;
+}
+
+.reporter-doidao {
+    max-width: 600px;
+}
+
+.copa-catar {
+    max-width: 600px;
+}
+
+.rango-brabo {
+    max-width: 600px;
+}
+
+.huck {
+    max-width: 600px;
+}
+
+
+.filmografia {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+@media (min-width: 768px) {
+    body {
+        padding: 40px;
+    }
+
+    main {
+        padding: 40px;
+    }
+
+    h1 {
+        font-size: 2.5em;
+    }
+
+    h2 {
+        font-size: 2em;
+    }
+}
