@@ -1,6 +1,12 @@
 body {
     background-color: #1f1f1f;
-    color:white
+    color:white;
+ ;
+}
+
+main {
+    margin-top: 200px;
+    margin-bottom: 100px;
 }
 .titulo-baixo {
     font-size: 40px;
