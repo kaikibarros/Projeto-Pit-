@@ -1,12 +1,25 @@
+body {
+    background-color: #1f1f1f;
+    color:white
+}
 .titulo-baixo {
     font-size: 40px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: arial;
     text-align: center;
+}
+
+.titulo-baixo::after {
+    content:'';
+    display:block;
+    width: 110px;
+    height:4px;
+    background-color: goldenrod;
+    margin:8px auto 0;
 }
 .conteudo-informativo {
     text-align: center;
-    font-size: x-large;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.6;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .container {
     text-align: center;
@@ -28,7 +41,7 @@ form label {
     width: 100%;
     margin-bottom: 5px;
     font-weight: bold;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     text-align: left;
 }
 
@@ -41,8 +54,44 @@ form textarea {
     padding: 10px;
     margin-bottom: 15px;
     box-sizing: border-box;
-    border: 1px solid #ccc;
-    border-radius: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+form input[type="tel"]:focus,
+form select:focus,
+form textarea:focus {
+  border-color: #66afe9;
+  box-shadow: 0 0 8px rgba(102, 175, 233, 0.6);
+}
+
+input[type="text"]::placeholder,
+input[type="email"]::placeholder, 
+form input[type="tel"]::placeholder,
+form select::placeholder,
+form textarea::placeholder{
+  color: #aaa;
+}
+
+input[type="text"]:hover,
+input[type="email"]:hover, 
+form input[type="tel"]:hover,
+form select:hover,
+form textarea:hover{
+  border-color: #888;
+}
+
+input[type="text"]:disabled,
+input[type="email"]:disabled, 
+form input[type="tel"]:disabled,
+form select:disabled,
+form textarea:disabled{
+  background-color: #e9ecef;
+  border-color: #ccc;
+  cursor: not-allowed;
 }
 
 form textarea {
@@ -53,12 +102,18 @@ form textarea {
 form input[type="submit"] {
     width: calc(50% - 10px); 
     padding: 10px;
+    border: none;
     background-color: black;
     color: white;
     border-radius: 20px;
     cursor: pointer;
     font-size: 16px;
     margin-top: 20px; 
+    transition: background-color 0.3s ease
+}
+
+form imput[type="submit"] {
+    background-color: #333333;
 }
 
 form input[type="submit"]:hover {
