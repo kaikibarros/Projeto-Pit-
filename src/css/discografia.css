@@ -14,7 +14,7 @@ main {
     align-items: center;
     background-color: darkslategrey;
     margin-bottom: 10%;
-     margin-top: 990px;
+     margin-top: 1000px;
     
 }
 
@@ -95,7 +95,7 @@ main {
 }
 
 .spotify-iframe .gari {
-    width: 480px;
+    width: 500px;
     height: 355px;
     margin-top:-2145px;
     
