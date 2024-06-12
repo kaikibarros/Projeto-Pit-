@@ -4,7 +4,7 @@ body {
     background: url("/src/assets /img/Defante-mic.png") no-repeat center;
     background-size: 100%;
     background-color: rgb(128, 31, 25);
-    height: 80vh;
+    height: 15vh;
 }
 
 
@@ -52,23 +52,23 @@ img {
 
 
 .diogo-banda {
-    max-width: 600px;
+    width: 600px;
 }
 
 .reporter-doidao {
-    max-width: 600px;
+    width: 600px;
 }
 
 .copa-catar {
-    max-width: 600px;
+    width: 600px;
 }
 
 .rango-brabo {
-    max-width: 600px;
+    width: 600px;
 }
 
 .huck {
-    max-width: 600px;
+    width: 600px;
 }
 
 
@@ -79,20 +79,8 @@ img {
 }
 
 
-@media (min-width: 768px) {
-    body {
-        padding: 40px;
-    }
-
-    main {
-        padding: 40px;
-    }
-
-    h1 {
-        font-size: 2.5em;
-    }
-
-    h2 {
-        font-size: 2em;
-    }
+@media (min-width:390px) and (min-width: 844px){
+       img {
+            width: 10px;        }
+    
 }
