@@ -1,0 +1,48 @@
+body {
+    background-color: #ccc;
+}
+
+.section-bio {
+    width: 100%;
+    height: 80vh;
+  
+    background-color: #1f1f1f;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    color: #ffffff;
+  }
+  
+  .section-bio .about-container {
+    width: 60%;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 5rem;
+  }
+  
+  .about-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 900px;
+    height: 300px;
+    border-radius: 10px 120px;
+    
+  }
+  
+  .about-img img {
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .about-container .about-text h2 {
+    font-size: 64px;
+  }
+  
+  .about-container .about-img img {
+    height: 130%;
+    width: 130%;
+  }
