@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contatos</title>
+    <link rel="stylesheet" href="/src/css/contatos.css">
+    <link rel="stylesheet" href="/src/css/header.css"> 
+    <link rel="stylesheet" href="/src/css/footer.css">
+</head>
+<body>
+    <header class="header-contato">
+        <div class="h1">
+            <h1>Contato</h1>
+        </div>
+    </header>
+    <main class="main">
+        <h3 class="titulo-baixo">Entre em Contato</h3>
+        <div class="conteudo-informativo">
+           <p>Preencha o formulário abaixo para análise e logo entraremos em contato com você.</p> 
+        </div>
+        <div class="container">
+            <form action="/enviar-contato" method="post">
+                <label for="nome">Nome:</label><br>
+                <input type="text" id="nome" name="nome" required><br><br>
+            
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+            
+                <label for="telefone">Telefone:</label><br>
+                <input type="tel" id="telefone" name="telefone"><br><br>
+            
+                <label for="celular">Celular:</label><br>
+                <input type="tel" id="celular" name="celular" required><br><br>
+                <label for="assunto">Assunto:</label><br>
+                <input type="text" id="assunto" name="assunto" required><br><br>
+            
+                <label for="setor">Escolha o Setor:</label><br>
+                <select id="setor" name="setor">
+                  <option value=""></option>
+                  <option value="Compositores">Compositores</option>
+                  <option value="Contratantes">Contratantes</option>
+                  <option value="Rádio">Rádio</option>
+                  <option value="Fã-Clube">Fã-Clube</option>
+                  <option value="Imprensa">Imprensa</option>
+                </select><br><br>
+            
+                <label for="mensagem">Mensagem:</label><br>
+                <textarea id="mensagem" name="mensagem" rows="4" cols="50" required></textarea><br><br>
+            
+                <input type="submit" value="Enviar">
+              </form>
+        </div>
+    </main>
+
+    <script src="/src/components/header/header.js"></script>
+    <script src="/src/components/footer/footer.js"></script>
+    <footer></footer>
+</body>
+</html>

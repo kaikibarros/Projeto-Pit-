@@ -1,8 +1,53 @@
 * {
     margin: 0;
     padding: 0;
-}
+    @import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css');
 
-body {
-    
 }
+@media (max-width: 768px) {
+    .container {
+      padding: 0 10px;
+    }
+  
+    header {
+      flex-direction: column;
+    }
+  
+    header a {
+      padding: 10px 0;
+    }
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  /* Responsividade */
+@media (max-width: 1200px) {
+    .container {
+      padding: 0 10px;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .row {
+      flex-direction: column;
+    }
+    
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .navbar a {
+      display: block;
+      padding: 10px 0;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .col {
+      min-width: 100%;
+    }
+  }
